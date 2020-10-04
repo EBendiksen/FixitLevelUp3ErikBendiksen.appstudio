@@ -1,10 +1,11 @@
 
 let i =0
-	for (i; i < 10; i++) {
-	alert("Welcome to the monthly loan payment calculator.");
-	let chooseCalculator = prompt("Please enter which calculator you would like to use: 'car' or 'house'.");
-	  if (chooseCalculator == "car") {
-	    alert("Thank you for selecting the monthly car loan payment calculator.");
+for (i; i < 10; i++) {
+alert("Welcome to the monthly loan payment calculator.");
+
+let chooseCalculator = prompt("Please enter which calculator you would like to use: 'car' or 'house'.");
+if (chooseCalculator == "car") {
+	alert("Thank you for selecting the monthly car loan payment calculator.");
 
   let rate = parseFloat(prompt(`Please enter the interest rate of your loan (without the "%" sign).`));
     let rateAdj = (rate / 12) / 100;
