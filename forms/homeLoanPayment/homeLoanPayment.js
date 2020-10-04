@@ -1,13 +1,12 @@
-let carLoanAmount = Number(prompt("Please enter your loan amount (leave out the $ sign)."));
-let carLoanMonths = Number (prompt("Please enter the length of your desired loan (months)."));
-let carInterestRate = Number(prompt("Please enter your interest rate (leave out the % sign)."));
+/* let rateOne = parseFloat(prompt('Please enter the interest rate of your loan (without the "%" sign).'));
+    let rateAdjOne = (rateOne / 12) / 100;
+    let amountOne = Number(prompt('Please enter the amount of your loan.'));
+    let yearsOne = Number(prompt('Please enter the duration of your loan (15 or 30 years).'));
+    let monthsOne = yearsOne * 12;
+    alert(`A home loan for ${amountOne} over ${yearsOne} years at ${rateOne}% interest would have a monthly payment of $${hlPayment(amountOne, rateAdjOne, monthsOne).toFixed(2)}.`);
 
-function carLoanPayment(carLoanAmount, carLoanMonths, carInterestRate) {
-  let carPaymentEquation = (carLoanAmount / carLoanMonths) * ((carInterestRate / 100) + 1);
-  return carPaymentEquation;
-  };
-  
-  let monthlyCarPayment = carLoanPayment (carLoanAmount, carLoanMonths, carInterestRate);
-  alert(`A car loan for $${carLoanAmount} over ${carLoanMonths} months at a ${carInterestRate}% interest rate would have a monthly payment of $${monthlyCarPayment.toFixed(2)}.`);
-  
+function hlPayment(p, r, n) {
+  return p * (r*((1+r)**n))/(((1+r)**n)-1)
+}
+  */
   
